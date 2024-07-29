@@ -1,5 +1,5 @@
 "use client"
-import React, {memo} from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 export const BackgroundBeams = React.memo(
@@ -135,3 +135,4 @@ export const BackgroundBeams = React.memo(
   }
 );
 
+BackgroundBeams.displayName = "BackgroundBeams";
